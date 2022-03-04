@@ -1,0 +1,156 @@
+@import url("https://use.typekit.net/voa0pic.css");
+
+.plan-section {
+  width: 100%;
+  position: relative;
+  /* top: 200px; */
+  padding: 100px 0 200px;
+}
+
+.plan-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0068b7;
+  transform: skewY(7deg);
+  z-index: -1;
+}
+
+.plan-heading span {
+  text-decoration: underline;
+  color: white;
+  /* font-size: 2vw; */
+}
+
+.plan-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+.plan-cards {
+  max-width: 1000px;
+  margin: 4rem auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan-item {
+  background: -webkit-linear-gradient(left, #182936, rgba(24, 41, 54, 0.2));
+  background: linear-gradient(to right, #182936, rgba(24, 41, 54, 0.2));
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  color: white;
+  width: 30%;
+  height: 700px;
+  border-radius: 10px;
+}
+
+.plan-item--body {
+  padding: 0 1rem 2rem;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.plan-item--heading {
+  border-bottom: 1px solid white;
+  padding-bottom: 2rem;
+}
+
+.plan-item--price {
+  margin-top: 2rem;
+}
+
+.plan-item--text,
+.plan-item--title {
+  margin-top: 1rem;
+  line-height: 1.2rem;
+}
+
+.plan-item--text {
+  font-size: 0.7rem;
+}
+
+.plan-item--price span {
+  font-family: din-2014, sans-serif;
+  font-size: 4vw;
+  letter-spacing: 0.1rem;
+}
+
+.plan-item--title {
+  font-size: 1rem;
+}
+
+.plan-item--label {
+  padding: 2rem;
+  border-radius: 10px 10px 0 0;
+  letter-spacing: 0.05rem;
+}
+
+.plan-item--detail {
+  /* margin-top: 2rem; */
+  padding: 1rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  height: 330px;
+}
+
+.plan-item--benefit {
+  font-size: 1vw;
+  text-align: left;
+  list-style-type: disc;
+}
+
+.plan-item--detail button {
+  width: 100%;
+  font-weight: 300;
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.plan-item--label.master {
+  background: -webkit-linear-gradient(left, #0068b7, #31a4fd);
+  background: linear-gradient(to right, #0068b7, #31a4fd);
+}
+.plan-item--label.student {
+  background: -webkit-linear-gradient(left, #ffc119, #ff7f00);
+  background: linear-gradient(to right, #ffc119, #ff7f00);
+  white-space: nowrap;
+}
+.plan-item--label.light {
+  background: -webkit-linear-gradient(left, #25b196, #89f8e3);
+  background: linear-gradient(to right, #25b196, #89f8e3);
+}
+
+@media screen and (max-width: 767px) {
+  .plan-cards {
+    display: block;
+    width: 80%;
+  }
+
+  .plan-item {
+    width: 100%;
+    margin-top: 2rem;
+    height: 650px;
+  }
+
+  .plan-item--detail {
+    height: 300px;
+  }
+
+  .plan-item--price span {
+    font-size: 3rem;
+  }
+}

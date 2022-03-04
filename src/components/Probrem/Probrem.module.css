@@ -1,0 +1,138 @@
+@import url("https://use.typekit.net/voa0pic.css");
+
+.probrem {
+  background-image: url("../../assets/img/img6.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 100px;
+  position: relative;
+}
+
+.probrem-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 2rem auto 0;
+}
+
+.probrem-cards div {
+  width: 30%;
+  padding: 2.5rem 1rem 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  position: relative;
+}
+
+.probrem-cards div::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(left, #edce34 0%, #ed5f34 100%);
+  background: linear-gradient(to right, #edce34 0%, #ed5f34 100%);
+  background: url(../../assets/img/img7.png);
+  background-size: cover;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.probrem-heading {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #07426f;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 0.8rem;
+  border-radius: 30px;
+  font-size: 1rem;
+}
+
+.probrem-title {
+  font-size: 3vw;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+  margin-top: 1rem;
+}
+
+.probrem-allow {
+  background-image: url("../../assets/img/img8.png");
+  width: 50px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2rem auto 0;
+}
+
+.probrem-sugest {
+  width: 50%;
+  background: #e5f1ff;
+  padding: 0.3rem;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 2vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 2rem auto;
+}
+
+.probrem-suggest-strong {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 50%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .probrem-heading {
+    line-height: 2rem;
+    font-size: 5vw;
+    width: 90%;
+    padding: 1rem;
+    border-radius: 50px;
+  }
+
+  .probrem-title {
+    font-size: 7vw;
+    margin-top: 2rem;
+  }
+
+  .probrem-cards {
+    display: block;
+  }
+
+  .probrem-cards div {
+    width: 90%;
+    margin: 1rem auto 0;
+  }
+
+  .probrem-sugest {
+    width: 90%;
+    margin: 2rem auto 0;
+    font-size: 1.5rem;
+  }
+
+  .probrem-sugest span {
+    color: #0068b7;
+    font-family: din-2014, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0.07rem;
+  }
+}

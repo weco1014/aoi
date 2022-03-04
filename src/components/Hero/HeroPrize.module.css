@@ -1,0 +1,41 @@
+img {
+  width: 100%;
+}
+
+.prizes {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.prize-item {
+  width: calc(100% / 3);
+}
+
+.prize-item img {
+  width: 100%;
+}
+
+.prize-item:not(:last-child) {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  .prizes {
+    flex-wrap: wrap;
+  }
+
+  .prize-item {
+    margin-top: 2rem;
+  }
+
+  .prize-item {
+    width: 45%;
+  }
+
+  .prize-item--big {
+    width: 80%;
+  }
+}

@@ -1,0 +1,132 @@
+@import url("https://use.typekit.net/voa0pic.css");
+
+.company-section {
+  width: 100%;
+  position: relative;
+  /* top: 200px; */
+  padding: 200px 0;
+}
+
+.company-section::before {
+  content: "";
+  background-image: url("../../assets/img/img20.png");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: #182936; */
+  transform: skewY(-5deg);
+  z-index: -1;
+}
+
+.company-heading span {
+  text-decoration: underline;
+  /* font-size: 2vw; */
+}
+
+.company-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.company-info h2 {
+  width: 30%;
+  margin: 2rem auto 0;
+}
+
+.company-info-text {
+  font-weight: 300;
+  line-height: 1.8rem;
+  letter-spacing: 0.05rem;
+  max-width: 700px;
+  margin: 2rem auto 0;
+}
+
+.company-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 4rem auto 0;
+}
+
+.company-cards li {
+  width: 30%;
+  background-color: white;
+  border-radius: 30px;
+  padding: 1rem;
+}
+
+.icon {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.company-cards h3 {
+  margin-top: 2rem;
+}
+
+.company-data {
+  margin-top: 1rem;
+  color: #0068b7;
+}
+
+.strong {
+  font-size: 3rem;
+  font-family: din-2014, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.strong span {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .company-container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .company-cards {
+    display: block;
+  }
+
+  .company-cards li {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+    width: 20%;
+  }
+  .right {
+    width: 70%;
+  }
+
+  .company-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .company-section {
+    padding-bottom: 200px;
+  }
+
+  .company-info h2 {
+    width: 70%;
+  }
+}
