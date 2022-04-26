@@ -5,8 +5,7 @@ import classes from "./Plan.module.css";
 
 const Plan = (props) => {
   return (
-    <section className={classes["plan-section"]}>
-      <div className="content"></div>
+    <section className={classes["plan-section"]} id="plan">
       <div className={classes["plan-heading"]}>
         <PrimaryText>PRICE</PrimaryText>
       </div>
@@ -37,10 +36,12 @@ const Plan = (props) => {
                 <li>質問し放題かつ24時間以内のチャットサポート</li>
                 <li>作品講評会への参加</li>
                 <li>案件紹介の可能性（審査有り）</li>
-                <li>コワーキングスペースのご利用（AOI Pro.原宿）</li>
+                <li>コミュニティスペースのご利用（AOI Pro. JUKU / 原宿）</li>
               </ul>
               <button>
-                <a href="#">詳しく見る</a>
+                <a href="https://fcl.aoi-pro.com/pre_auth/email/new?plan_id=134">
+                  詳しく見る
+                </a>
               </button>
             </div>
           </div>
@@ -69,13 +70,15 @@ const Plan = (props) => {
                 <li>質問し放題かつ24時間以内のチャットサポート</li>
                 <li>全セミナーへの参加（アーカイブ全視聴）</li>
                 <li>案件やアルバイト紹介の可能性（審査有り）</li>
-                <li>オープンスペースのご利用（AOI Pro. 原宿）</li>
+                <li>コミュニティスペースのご利用（AOI Pro. JUKU / 原宿）</li>
                 <li>作品講評会への参加</li>
                 <li>交流会への参加</li>
                 <li>動画教材の視聴</li>
               </ul>
               <button>
-                <a href="#">詳しく見る</a>
+                <a href="https://fcl.aoi-pro.com/pre_auth/email/new?plan_id=280">
+                  詳しく見る
+                </a>
               </button>
             </div>
           </div>
@@ -103,7 +106,9 @@ const Plan = (props) => {
                 <li>セミナーへの限定参加</li>
               </ul>
               <button>
-                <a href="#">詳しく見る</a>
+                <a href="https://fcl.aoi-pro.com/pre_auth/email/new?plan_id=135">
+                  詳しく見る
+                </a>
               </button>
             </div>
           </div>

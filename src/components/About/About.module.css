@@ -58,10 +58,6 @@ section {
   margin-right: 1rem;
 } */
 
-.about-list-title {
-  font-size: 1vw;
-}
-
 .about-list-data {
   font-family: din-2014, sans-serif;
 
@@ -69,6 +65,7 @@ section {
 
   font-style: normal;
   font-size: 50px;
+  line-height: 3rem;
 }
 .about-list-data span {
   font-size: 2vw;
@@ -98,13 +95,19 @@ section {
   }
   .about-list-data {
     font-size: 8vw;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    line-height: 2rem;
   }
 
   .about-text {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .about-list-title {
+    /* font-size: 1vw; */
+    font-size: 0.6rem;
   }
 }
 

@@ -21,7 +21,7 @@
   justify-content: center;
 }
 
-.hero-btn span {
+/* .hero-btn span {
   display: block;
   width: 5em;
   height: 5em;
@@ -39,7 +39,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .hero-btn:hover {
   transform: scale(1.1);
@@ -50,13 +50,13 @@
   .hero-btn {
     width: 80%;
     font-size: 3vw;
-    justify-content: flex-start;
-    padding-left: 15vw;
+    /* justify-content: flex-start;
+    padding-left: 15vw; */
   }
 
-  .hero-btn span {
+  /* .hero-btn span {
     width: 12vw;
     height: 12vw;
     font-size: 1vw;
-  }
+  } */
 }

@@ -5,11 +5,11 @@ import classes from "./HeroBtn.module.css";
 const HeroBtn = (props) => {
   return (
     <button className={classes["hero-btn"]}>
-      <span>
+      {/* <span>
         10日間
         <br />
         無料
-      </span>
+      </span> */}
       <a href={props.link}>{props.children}</a>
     </button>
   );

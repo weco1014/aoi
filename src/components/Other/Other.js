@@ -7,9 +7,7 @@ const Other = (props) => {
       <div className="content">
         <h1 className={classes["other-title"]}>注意事項</h1>
         <ul className={classes["other-texts"]}>
-          <li>
-            ※入会時にクレジットカード（VISA,MasterCard）での月額払いになります。
-          </li>
+          <li>※入会時にクレジットカードでの月額払いになります。</li>
           <li>※クレジットカード決済が確認されると参加メンバーとなります。</li>
           <li>
             ※コミュニティ内の投稿や講義内容はメンバーのみの限定公開を前提にしております。

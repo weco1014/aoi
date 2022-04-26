@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  video {
+  iframe {
     width: 90%;
     height: 150vw;
   }

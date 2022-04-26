@@ -26,13 +26,14 @@ const About = (props) => {
           <li>
             <div>
               <p className={classes["about-list-title"]}>
-                22卒AOI Pro.
+                アオイラボ独自の
                 <br />
-                内定者のラボメンバー割合
+                映像案件
               </p>
               <p className={classes["about-list-data"]}>
-                50<span>%</span>
+                50<span>件</span>
               </p>
+              <p className={classes["about-list-title"]}>以上</p>
             </div>
           </li>
           <li>
@@ -58,7 +59,7 @@ const About = (props) => {
           <p>
             2020年8月にスタートした、現場のプロから映像制作を学ぶスクール型コミュニティです。
             <br className="only-pc" />
-            最前で活躍するクリエイターを講師に迎えたセミナーやワークショップを中心に、
+            最前線で活躍するクリエイターを講師に迎えたセミナーやワークショップを中心に、
             <br className="only-pc" />
             「CM撮影現場の体験」や出会いやきっかけを作るコミュニティを提供しています。
           </p>

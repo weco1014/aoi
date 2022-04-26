@@ -1,9 +1,5 @@
 import React from "react";
 
-import img1 from "../../assets/img/img26.png";
-import img2 from "../../assets/img/img27.png";
-import img3 from "../../assets/img/img28.png";
-
 import PrimaryText from "../UI/PrimaryText";
 
 import classes from "./Features.module.css";
@@ -21,13 +17,17 @@ const Features = (props) => {
                 </h2>
                 <span className={classes.deco}>01</span>
                 <p>
-                  メンバー限定で、AOIPro.だからこそ提供できる<span>CM、MV</span>
+                  メンバー限定で、AOI Pro.だからこそ提供できる
+                  <span>CM、MV</span>
                   などの<span>撮影現場体験の機会</span>
-                  が用意されています。実際に社員や技術スタッフの働きぶりを間近で見ることができるので業界研究にも繋がります。
+                  が用意されています。実際に社員や技術スタッフの動きを間近で見ることができるのでより実践的なノウハウを身につけれます。
                 </p>
               </div>
               <div className={classes["list-item--img"]}>
-                <img src={img2} alt="img" />
+                <img
+                  src="https://image.osiro.it/pass/image_uploads/454920/images/original/img27.770249533f7880ae454b.png?1647928584"
+                  alt="img"
+                />
               </div>
             </div>
           </li>
@@ -42,13 +42,16 @@ const Features = (props) => {
                   <span>メンバー限定</span>
                   のオンライントークルームに参加でき、わからないことを講師やメンバーに質問したり、気軽に情報交換ができます。AOI
                   Pro.のプロデューサーも参加しているので、<span>現場体験</span>
-                  や、<span>業務アシスタント</span>のアルバイト、
-                  <span>お仕事の紹介</span>
-                  などを募集することもあります。セミナー以外にも、映像を学ぶコンテンツや、繋がりが広がる交流の場があります。
+                  や<span>業務アシスタント</span>の アルバイトの募集のほか、
+                  <span>お仕事を紹介</span>
+                  することもあります。
                 </p>
               </div>
               <div className={classes["list-item--img"]}>
-                <img src={img3} alt="img" />
+                <img
+                  src="https://image.osiro.it/pass/image_uploads/454921/images/original/img28.fcd393b97fb8ab46a094.png?1647928596"
+                  alt="img"
+                />
               </div>
             </div>
           </li>
@@ -69,7 +72,10 @@ const Features = (props) => {
                 </p>
               </div>
               <div className={classes["list-item--img"]}>
-                <img src={img1} alt="img" />
+                <img
+                  src="https://image.osiro.it/pass/image_uploads/454919/images/original/img26.877bbb0a8fea3b243f88.png?1647928573"
+                  alt="img"
+                />
               </div>
             </div>
           </li>

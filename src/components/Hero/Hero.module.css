@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("../../assets/img/img4.png");
+  background-image: url("https://image.osiro.it/pass/image_uploads/454963/images/original/img4.41c42147d30e5ef61cdc.png?1647930346");
   background-size: cover;
   /* background-position: center; */
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@
   border-radius: 50%;
 }
 
-.dot-text {
+/* .dot-text {
   font-size: clamp(25px, 2.7vw, 40px);
   padding-top: 0.1em;
   background-position: top left 3px;
@@ -86,6 +86,11 @@
     rgb(26, 25, 25) 100%,
     transparent
   );
+} */
+
+.dot-text {
+  text-emphasis: filled;
+  -webkit-text-emphasis: filled;
 }
 
 .hero-logo {
@@ -96,21 +101,28 @@
   margin: 2rem 0 0 2rem;
 }
 
+@media screen and (max-width: 995px) {
+  .hero-title {
+    margin-top: 4rem;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .hero {
     padding-left: 2rem;
     padding-right: 2rem;
+    background-image: url("https://image.osiro.it/pass/image_uploads/456001/images/original/bg-sp-top.png?1648067374");
   }
 
   .hero-heading {
     width: 80%;
     text-align: center;
-    font-size: 1vw;
+    font-size: 3vw;
   }
 
   .hero-title {
-    margin-top: 4rem;
-    font-size: 8vw;
+    margin-top: 3rem;
+    font-size: 5vw;
     line-height: 2.3rem;
   }
 
@@ -120,5 +132,11 @@
 
   .hero-logo {
     width: 30%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero-title {
+    font-size: 8vw;
   }
 }

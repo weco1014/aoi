@@ -2,9 +2,6 @@ import React from "react";
 
 import PrimaryText from "../UI/PrimaryText";
 
-import user1 from "../../assets/img/img17.png";
-import user2 from "../../assets/img/img18.png";
-import user3 from "../../assets/img/img19.png";
 import classes from "./Voice.module.css";
 
 const Voice = (props) => {
@@ -21,7 +18,10 @@ const Voice = (props) => {
           <ul>
             <li className={classes["user-l"]}>
               <div className={classes["img-border"]}>
-                <img src={user1} alt="img" />
+                <img
+                  src="https://image.osiro.it/pass/image_uploads/454909/images/original/img17.b8b6ce2d381d987bedac.png?1647928475"
+                  alt="img"
+                />
               </div>
               <div className={classes["user-text"]}>
                 <h2>20代 フリーランスビデオグラファー</h2>
@@ -32,7 +32,10 @@ const Voice = (props) => {
             </li>
             <li className={classes["user-r"]}>
               <div className={classes["img-border"]}>
-                <img src={user2} alt="img" />
+                <img
+                  src="https://image.osiro.it/pass/image_uploads/454910/images/original/img18.b71339496134eef2e163.png?1647928487"
+                  alt="img"
+                />
               </div>
               <div className={classes["user-text"]}>
                 <h2>20代 学生</h2>
@@ -43,14 +46,15 @@ const Voice = (props) => {
             </li>
             <li className={classes["user-l"]}>
               <div className={classes["img-border"]}>
-                <img src={user3} alt="img" />
+                <img
+                  src="https://image.osiro.it/pass/image_uploads/454911/images/original/img19.388ae030a51a29c4b5e7.png?1647928496"
+                  alt="img"
+                />
               </div>
               <div className={classes["user-text"]}>
-                <h2>20代 学生</h2>
+                <h2>20代 社会人</h2>
                 <p>
-                  学生でもスキルを習得すれば、AOI
-                  Pro.からお仕事をもらえる機会がありました。学生のうちから業界人との繋がりができるのも魅力の一つです！CM撮影の現場体験をいかして
-                  AOI Pro. に内定しました！
+                  映像業界への転職を考えていましたが、実際の現場体験をしながら体型的に学べるスクールは多くないのでアオイラボを選びました！半年程で案件も受けられるようになり成長を感じてます！
                 </p>
               </div>
             </li>

@@ -4,16 +4,14 @@ import classes from "./Probrem.module.css";
 import Card from "../UI/Card";
 import PrimaryText from "../UI/PrimaryText";
 
-import logoBlue from "../../assets/img/img10.png";
-
 const Probrem = (props) => {
   return (
     <section className={classes.probrem}>
       <div className="content">
         <p className={classes["probrem-heading"]}>
-          映像業界で働いてみたいけど
-          <br className="onpy-sp" />
-          何から初めていいかわからない…
+          映像業界に転職や映像の副業を始めたいけど
+          <br className="only-sp" />
+          何から始めていいかわからない…
         </p>
         <h1 className={classes["probrem-title"]}>こんなお悩みありませんか？</h1>
         <div className={classes["probrem-cards"]}>
@@ -22,17 +20,14 @@ const Probrem = (props) => {
             身につけられるか不安
           </Card>
           <Card>
-            もっと
-            <PrimaryText>
-              実践的な
-              <br />
-              スキル
-            </PrimaryText>
+            現場体験込みの
+            <PrimaryText>実践的スキル</PrimaryText>
             を学びたい
           </Card>
           <Card>
-            <PrimaryText>就職活動</PrimaryText>に<br />
-            活かしたい
+            周りに
+            <PrimaryText>映像コミュニティー</PrimaryText>
+            が少ない
           </Card>
         </div>
         <div className={classes["probrem-allow"]} />
@@ -42,7 +37,10 @@ const Probrem = (props) => {
             <br />
             <div className={classes["probrem-suggest-strong"]}>
               <p className={classes.logo}>
-                <img src={logoBlue} alt="logo" />
+                <img
+                  src="https://image.osiro.it/pass/image_uploads/454900/images/original/img10.03558f97e59b27865155.png?1647928396"
+                  alt="logo"
+                />
               </p>
               <p>に</p>
             </div>

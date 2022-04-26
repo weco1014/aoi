@@ -6,15 +6,16 @@ import Card from "../UI/Card";
 import Mgn from "../UI/Mgn";
 import PrimaryText from "../UI/PrimaryText";
 
-import logo from "../../assets/img/img29.png";
-
 import classes from "./Hero.module.css";
 
 const Hero = (props) => {
   return (
     <header className={classes.hero}>
       <p className={classes["hero-logo"]}>
-        <img src={logo} alt="logo" />
+        <img
+          src="https://image.osiro.it/pass/image_uploads/454923/images/original/img29.4a11ba121b7382503951.png?1647928616"
+          alt="logo"
+        />
       </p>
       <div className={classes["hero-card"]}>
         <Card>
@@ -35,7 +36,12 @@ const Hero = (props) => {
           </h1>
           <HeroPrize></HeroPrize>
           <Mgn />
-          <HeroBtn link="#">トライアルクーポンはこちら</HeroBtn>
+          <HeroBtn link="https://fcl.aoi-pro.com/join_us">
+            10日間無料トライアルはこちら
+          </HeroBtn>
+          {/* <HeroBtn link="https://fcl.aoi-pro.com/pre_auth/email/new?plan_id=134">
+            10日間無料トライアルはこちら
+          </HeroBtn> */}
         </Card>
       </div>
     </header>

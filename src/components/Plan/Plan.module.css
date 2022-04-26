@@ -48,7 +48,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   color: white;
   width: 30%;
-  height: 700px;
+  height: 830px;
   border-radius: 10px;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .plan-item--text {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 .plan-item--price span {
@@ -85,12 +85,14 @@
 
 .plan-item--title {
   font-size: 1rem;
+  font-weight: 400;
 }
 
 .plan-item--label {
   padding: 2rem;
   border-radius: 10px 10px 0 0;
   letter-spacing: 0.05rem;
+  font-size: 1.2rem;
 }
 
 .plan-item--detail {
@@ -101,11 +103,11 @@
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  height: 330px;
+  height: 400px;
 }
 
 .plan-item--benefit {
-  font-size: 1vw;
+  /* font-size: 1vw; */
   text-align: left;
   list-style-type: disc;
 }
@@ -127,14 +129,14 @@
 .plan-item--label.student {
   background: -webkit-linear-gradient(left, #ffc119, #ff7f00);
   background: linear-gradient(to right, #ffc119, #ff7f00);
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 .plan-item--label.light {
   background: -webkit-linear-gradient(left, #25b196, #89f8e3);
   background: linear-gradient(to right, #25b196, #89f8e3);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 776px) {
   .plan-cards {
     display: block;
     width: 80%;
@@ -143,7 +145,7 @@
   .plan-item {
     width: 100%;
     margin-top: 2rem;
-    height: 650px;
+    height: 750px;
   }
 
   .plan-item--detail {
@@ -152,5 +154,10 @@
 
   .plan-item--price span {
     font-size: 3rem;
+  }
+
+  .plan-item--benefit {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
   }
 }

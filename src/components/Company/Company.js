@@ -2,11 +2,6 @@ import React from "react";
 
 import PrimaryText from "../UI/PrimaryText";
 
-import logo from "../../assets/img/img21.png";
-import img1 from "../../assets/img/img22.png";
-import img2 from "../../assets/img/img23.png";
-import img3 from "../../assets/img/img24.png";
-
 import classes from "./Company.module.css";
 
 const Company = (props) => {
@@ -23,17 +18,24 @@ const Company = (props) => {
         </div>
         <div className={classes["company-info"]}>
           <h2>
-            <img src={logo} alt="logo" />
+            <img
+              src="https://image.osiro.it/pass/image_uploads/459813/images/original/AOIPro_logo.png?1648537088"
+              alt="logo"
+            />
           </h2>
           <p className={classes["company-info-text"]}>
-            AOIPro.は、広告映像制作をコアビジネスとするアジアトップクラスの映像プロダクションです。
+            AOI
+            Pro.は、広告映像制作をコアビジネスとするアジアトップクラスの映像プロダクションです。
             映像制作に必要なリソースをグループ内に完備し、
             海外事業、インフルエンサーマーケティングなども行っています。
           </p>
           <ul className={classes["company-cards"]}>
             <li>
               <div className={classes.icon}>
-                <img src={img1} alt="img" />
+                <img
+                  src="https://image.osiro.it/pass/image_uploads/454916/images/original/img22.6f8633d48f48b2fa86ed.png?1647928539"
+                  alt="img"
+                />
               </div>
               <div className={classes.right}>
                 <h3>広告映像制作本数</h3>
@@ -47,7 +49,10 @@ const Company = (props) => {
             </li>
             <li>
               <div className={classes.icon}>
-                <img src={img2} alt="img" />
+                <img
+                  src="https://image.osiro.it/pass/image_uploads/454917/images/original/img23.8ec4b0556606b8833694.png?1647928557"
+                  alt="img"
+                />
               </div>
               <div className={classes.right}>
                 <h3>受賞数</h3>
@@ -61,14 +66,17 @@ const Company = (props) => {
             </li>
             <li>
               <div className={classes.icon}>
-                <img src={img3} alt="img" />
+                <img
+                  src="https://image.osiro.it/pass/image_uploads/454918/images/original/img24.0662beb41a4377a36184.png?1647928565"
+                  alt="img"
+                />
               </div>
               <div className={classes.right}>
                 <h3>海外展開</h3>
                 <div className={classes["company-data"]}>
                   <p>アジア</p>
                   <p className={classes.strong}>
-                    5<span>都市</span>
+                    3<span>都市</span>
                   </p>
                 </div>
               </div>

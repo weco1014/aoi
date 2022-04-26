@@ -232,7 +232,8 @@ const Faq = (props) => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography sx={{ textAlign: "left" }}>
-                月に3回程開催しています。（MasterClassの場合）セミナー以外にも、イベントなどを実施しております。
+                月に3回程開催しています。（Master
+                Classの場合）セミナー以外にも、イベントなどを実施しております。
               </Typography>
             </AccordionDetails>
           </Accordion>
